@@ -75,3 +75,8 @@ body {
     50% { transform: scale(1.5); opacity: 0.2; }
     100% { transform: scale(1); opacity: 0.5; }
 }
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+}
